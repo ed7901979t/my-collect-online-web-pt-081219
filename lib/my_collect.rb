@@ -1,5 +1,5 @@
 collection = ['ruby', 'javascript', 'python', 'objective-c']
-collect(collection) do |lang|
+my_collect(collection) do |lang|
   lang.reverse
 end
 
